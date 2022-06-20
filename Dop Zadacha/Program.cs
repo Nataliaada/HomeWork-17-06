@@ -2,5 +2,4 @@
 
 Console.WriteLine("Введите число:");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("Модуль числа = ");
-Console.WriteLine(Math.Abs(a));
+Console.WriteLine($"Модуль числа {Math.Abs(a)}");
