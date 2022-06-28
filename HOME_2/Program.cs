@@ -13,11 +13,22 @@ if (a > b) max = a;
 else max = b;
 if (max > c) 
 {
-Console.Write("max = ");
-Console.WriteLine(max);
+Console.WriteLine($"max = {max} ");
 }
 else
 {
-Console.Write("max = ");
-Console.WriteLine(c);
+Console.WriteLine($"max = {c}");
 }
+
+// if (a > b) max = a;
+// else max = b;
+// if (max > c) 
+// {
+// Console.Write("max = ");
+// Console.WriteLine(max);
+// }
+// else
+// {
+// Console.Write("max = ");
+// Console.WriteLine(c);
+// }
